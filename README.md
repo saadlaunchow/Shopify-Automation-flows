@@ -33,6 +33,14 @@ flowchart TD
 ```
 ---
 
+## 🎥 Workflow Demo Video
+
+This short video demonstrates the complete n8n automation flow in action,
+from adding a product URL in Google Sheets to creating the product in Shopify.
+
+▶ Watch the demo: (https://drive.google.com/file/d/1eYZGgH28MbuYXBnX1H6_RqCCrVNpQR-2/view?usp=sharing)
+
+
 ## 🧠 Tech Stack
 
 - Google Sheets (Trigger & Control Panel)
