@@ -16,6 +16,21 @@ This repository contains production-ready workflows that automate the process of
 - Add product metafields via Shopify Admin API
 - Reduce manual product upload time from 30 minutes to under 2 minutes
 
+## 🧭 Automation Flow Diagram
+
+```mermaid
+flowchart TD
+    A[Google Sheets<br/>Product URL Added] --> B[HTTP Request<br/>Scrape Product Page]
+    B --> C[AI Data Organizer<br/>Structured JSON]
+    C --> D[AI SEO Optimizer<br/>SEO Content]
+    D --> E[Shopify Create Product]
+    E --> F[HTTP API<br/>Create Metafields]
+
+    C -->|Raw Data| D
+    E -->|Product ID| F
+
+
+```
 ---
 
 ## 🧠 Tech Stack
